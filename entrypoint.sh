@@ -22,13 +22,17 @@ fi
 # Clone branch
 if [ -n "$REPO_URL" ]; then
     git clone --single-branch --branch "$BRANCH" --depth 1 "${REPO_URL}" /job
-    cd /job
+    #cd /job
 else
-    cd /job
+    echo "No REPU_URL provided"
+    #cd /job
 fi
 
 # Point Pi to /job for auth.json
 export PI_CODING_AGENT_DIR=/job
+
+# Clean workspace/tmp
+rm -rf ./workspace/tmp/*
 
 # Setup logs
 LOG_DIR="/job/workspace/logs"
