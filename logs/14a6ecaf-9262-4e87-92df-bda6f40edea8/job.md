@@ -1,0 +1,1 @@
+Use browser automation to navigate to https://jimmysaxblack.com, extract the homepage content, and save it as a markdown file at `data/jimmysaxblack_homepage.md`.
