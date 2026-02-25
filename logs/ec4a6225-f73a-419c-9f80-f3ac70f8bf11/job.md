@@ -1,0 +1,1 @@
+Use web search to find the homepage content of jimmysaxblack.com, extract the relevant information from the search results, and save it as a markdown file at `data/jimmysaxblack_homepage_<timestamp>.md`. If the file already exists, append a timestamp to the filename to avoid overwriting. Include error handling for search failures or content extraction issues.
