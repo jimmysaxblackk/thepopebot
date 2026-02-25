@@ -1,0 +1,1 @@
+Use browser automation to navigate to https://jimmysaxblack.com, extract the homepage content, and save it as a markdown file at `data/jimmysaxblack_homepage_<timestamp>.md`. If the file already exists, append a timestamp to the filename to avoid overwriting. Include detailed error handling for page load failures or content extraction issues.
