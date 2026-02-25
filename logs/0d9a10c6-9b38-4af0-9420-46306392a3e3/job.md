@@ -1,0 +1,1 @@
+Use the Brave Search API to find the current prices of gold and silver. Extract the latest prices from the search results and save them in a structured format, such as JSON, in a file like 'data/metal_prices.json'.
